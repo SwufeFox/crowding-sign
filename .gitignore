@@ -1,0 +1,13 @@
+# data is reproducible from public APIs -- never commit (2GB+ of klines)
+data/
+*_kline/
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# os/editor
+.DS_Store
+Thumbs.db
